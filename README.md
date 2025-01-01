@@ -31,82 +31,118 @@ Each button calls its respective frame, iniƟalizing a new instance and making i
 ### Array Frame 
 The Array Frame allows users to manage an array by adding, removing, and viewing elements. 
 GUI Elements 
+
 **Size Input:** A field to set the iniƟal size of the array.
+
 **Element Input:** A field to enter an element to add. 
-**BuƩons:**
+
+**Buttons:**
 - Add Element: Adds the specified element to the array. 
 - Remove Element: Removes the specified element from the array. 
--  Display Array: Shows all elements currently stored in the array. 
-**Display Area:** A text area to show the current state of the array. 
+-  Display Array: Shows all elements currently stored in the array.
+  
+**Display Area:** A text area to show the current state of the array.
+
 **Functionality**
-- Adding Elements: The applicaƟon checks for available space in the array and adds the entered element if 
+- Adding Elements: The application checks for available space in the array and adds the entered element if 
 possible. 
-- Removing Elements: The applicaƟon searches for and removes the specified element.
-- Displaying Elements: A display funcƟon outputs all elements sequenƟally.
+- Removing Elements: The application searches for and removes the specified element.
+- Displaying Elements: A display function outputs all elements sequentially.
 
 ### Stack Frame 
 The Stack Frame enables users to operate on a stack data structure, with opƟons for pushing and popping elements 
 and viewing the stack’s content. 
+
 **GUI Elements**
+
 **Element Input**: A field to input an element to push onto the stack. 
+
 **Buttons:**
 - Push: Adds the element to the top of the stack. 
 - Pop: Removes the element from the top of the stack. 
-- Display Stack: Shows the current state of the stack. 
-**Display Area:** A text area to display the elements in the stack from top to boƩom.
+- Display Stack: Shows the current state of the stack.
+  
+**Display Area:** A text area to display the elements in the stack from top to bottom.
+  
 **Functionality**
 - Push Operation: Adds an element to the top, as long as the stack is not full. 
 - Pop Operation: Removes the element from the top, displaying an error if the stack is empty. 
-- Display Operation: Shows all elements from the top of the stack to the boƩom.
+- Display Operation: Shows all elements from the top of the stack to the bottom.
 
 ### Queue Frame 
 The Queue Frame provides users with the ability to work with a standard queue, including enqueuing and dequeuing 
 elements. 
+
 **GUI Elements**
+
 **Size Input:** Sets the iniƟal size of the queue.
- **Element Input:** Enter an element to enqueue. 
+
+ **Element Input:** Enter an element to enqueue.
+ 
 **Buttons:** 
 - Enqueue: Adds an element to the back of the queue. 
 - Dequeue: Removes an element from the front of the queue. 
-- Display Queue: Shows the current state of the queue. 
+- Display Queue: Shows the current state of the queue.
+  
 **Display Area:** Shows all elements in the queue from front to rear. 
 FuncƟonality
+
 **Enqueue Operation:** Adds an element to the rear of the queue if space is available. 
-**Dequeue Operation:** Removes the front element, showing an error if the queue is empty. 
-**Display OperaƟtion:** Displays all elements from front to rear.
+
+**Dequeue Operation:** Removes the front element, showing an error if the queue is empty.
+
+**Display Operation:** Displays all elements from front to rear.
   
 ### Circular Queue Frame 
 The Circular Queue Frame allows users to interact with a circular queue, where elements wrap around once the end 
 of the queue is reached. 
+
 **GUI Elements**
- Size Input: Sets the iniƟal size of the circular queue.
- Element Input: Enter an element to enqueue. 
- BuƩons: 
-- Enqueue: Adds an element to the queue at the rear posiƟon.
+
+**Size Input:** Sets the initial size of the circular queue.
+
+**Element Input:** Enter an element to enqueue. 
+
+**Buttons:**
+- Enqueue: Adds an element to the queue at the rear position.
 - Dequeue: Removes an element from the front posiƟon.
 - Display Queue: Displays the elements in the circular queue. 
-- Reset: Clears the queue and resets front and rear. 
- Display Area: Shows the circular arrangement of elements. 
-FuncƟonality
- Enqueue OperaƟon: Adds elements at the rear, wrapping around if the end is reached. 
- Dequeue OperaƟon: Removes elements from the front, maintaining circular order. 
- Display OperaƟon: Outputs all elements, reflecƟng the circular layout.
- Reset: Clears all elements, reseƫng front and rear.
+- Reset: Clears the queue and resets front and rear.
+  
+**Display Area:** Shows the circular arrangement of elements.
+  
+**Functonality**
+
+**Enqueue Operation:** Adds elements at the rear, wrapping around if the end is reached. 
+
+**Dequeue Operation:** Removes elements from the front, maintaining circular order. 
+
+**Display Operation:** Outputs all elements, reflecƟng the circular layout.
+
+**Reset:** Clears all elements, reseƫng front and rear.
 
 ### LinkedList Frame 
 The LinkedList Frame gives users access to operaƟons on a singly linked list, including inserƟon, deleƟon, and 
 traversal. 
+
 **GUI Elements** 
+
 **Element Input:** Field to input an element to insert. 
-**Position Input:** Field to specify the posiƟon for inserƟon or deleƟon.
+
+**Position Input:** Field to specify the posiƟon for inserƟon or deletion.
+
 **Buttons:** 
 - Insert: Adds an element at the specified posiƟon.
 - Delete: Removes an element from the specified posiƟon.
-- Display List: Shows the current state of the linked list. 
+- Display List: Shows the current state of the linked list.
+  
 **Display Area:** A text area to display the linked list elements in sequence. 
 FuncƟonality
-**Insert Operation:** Inserts an element at a specific posiƟon.
-**Delete Operation:** Deletes an element from a specified posiƟon.
+
+**Insert Operation:** Inserts an element at a specific position.
+
+**Delete Operation:** Deletes an element from a specified position.
+
 **Display Operation:** Outputs each element in the linked list from head to tail.
 
 ### GUI application using Swing to showcase different data structures
