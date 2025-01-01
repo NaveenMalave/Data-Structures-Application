@@ -172,37 +172,71 @@ The application is designed as a graphical interface (using JFrame) to navigate 
   
 **Layout:** Absolute positioning (setBounds) is used to place components at specific coordinates on the panel.
 
-### UpdateEmployee.java
-<img src="" alt="">
+ 
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/Screenshot%20(275).png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
 
-### UpdateEmployee.java
-<img src="" alt="">
+### DataStructures.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/DataStrcture.png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
 
-### UpdateEmployee.java
-<img src="" alt="">
+### Array.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/Array.png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
 
-### UpdateEmployee.java
-<img src="" alt="">
+### CircularQueue.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/CircularQueue.png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
 
-### UpdateEmployee.java
-<img src="" alt="">
+
+### LinkedList.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/LinkedList.png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
 
-### UpdateEmployee.java
-<img src="" alt="">
+### Queue.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/Queue.png" alt="">
 **------------------------------------------------------------------------------------------------------------------------**
+
+### Stack.java
+<img src="https://github.com/NaveenMalave/Data-Structures-Application/blob/main/DSA%20Images/Stack.png" alt="">
+**------------------------------------------------------------------------------------------------------------------------**
+ 
  
  ## Technologies used
 
-- Java
+### 1.Java:
+The primary programming language used to build the application.
+Provides the foundation for object-oriented design and event-driven programming.
 
-- MySQL
-  
-- JDBC
+### 2. Libraries and Frameworks
+**Swing (javax.swing):**
+A part of the Java Standard Library, used to build the GUI components.
+Includes classes like JFrame, JPanel, JButton, and JLabel for designing and implementing the user interface.
+
+**AWT (java.awt):**
+A lower-level GUI toolkit in Java.
+Provides foundational classes like Color, Font, and EventQueue used for custom styling and event handling.
+
+### 3. Event Handling
+ActionListener (java.awt.event.ActionListener):
+A key interface for handling button clicks and other user interactions.
+
+### 4. IDE Tools (Optional, Not Code Specific)
+**Integrated Development Environment (IDE):**
+Tools like Eclipse, IntelliJ IDEA, or NetBeans are commonly used to develop Java Swing applications.
+They help with designing, debugging, and running the application.
+
+**JDK (Java Development Kit):**
+The Java environment required to compile and run the application.
+Includes the Java compiler (javac) and runtime environment (java).
+
+### 5. Build and Deployment
+**JAR Packaging:**
+Once the application is complete, it can be packaged into a Java Archive (.jar) file for easy distribution and execution.
+
+### 6. Operating System
+**Platform Independence:**
+Java's "write once, run anywhere" (WORA) philosophy ensures the application can run on any OS (Windows, macOS, Linux) with a compatible JVM installed.
   
  ## Authors
 
